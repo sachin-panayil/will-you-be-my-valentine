@@ -11,7 +11,6 @@ const CONFIG = {
   escapeSound: "../sounds/quack.mp3",
 };
 
-// Set the content from config
 document.getElementById("name-display").textContent = CONFIG.name;
 document.getElementById("greeting-text").textContent = CONFIG.greeting;
 document.getElementById("question-text").textContent = CONFIG.question;
@@ -64,8 +63,9 @@ function positionNoButton() {
 positionNoButton();
 
 document.addEventListener("mousemove", (e) => {
-  // Don't run if No button is hidden (celebration screen)
+  // Don't run if No button is hidden
   if (noBtn.style.display === "none") return;
+  if (!startOverlay.classList.contains("hidden")) return;
 
   handlePointerMove(e.clientX, e.clientY);
 });
@@ -75,6 +75,7 @@ document.addEventListener(
   "touchmove",
   (e) => {
     if (noBtn.style.display === "none") return;
+    if (!startOverlay.classList.contains("hidden")) return;
 
     const touch = e.touches[0];
     handlePointerMove(touch.clientX, touch.clientY);
@@ -87,6 +88,7 @@ document.addEventListener(
   "touchstart",
   (e) => {
     if (noBtn.style.display === "none") return;
+    if (!startOverlay.classList.contains("hidden")) return;
 
     const touch = e.touches[0];
     handlePointerMove(touch.clientX, touch.clientY);
