@@ -7,8 +7,8 @@ const CONFIG = {
   celebrationTitle: "Yay! 🎉💖",
   celebrationMessage: "You made the right choice! Can't wait to spend Valentine's Day with you!",
   celebrationGif: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHd3c2ptdTJsbmQ3eDM5MXphYzd4cGU2OGRqaXB1MHA3eWFjMjF4ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0ivjwuwIbvjEqY1g3W/giphy.gif",
-  confettiSound: "../sounds/confetti.mp3",
-  escapeSound: "../sounds/quack.mp3",
+  confettiSound: "./sounds/confetti.mp3",
+  escapeSound: "./sounds/quack.mp3",
 };
 
 document.getElementById("name-display").textContent = CONFIG.name;
