@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>An Important Question</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="envelope-overlay" id="start-overlay">
+      <div class="envelope" id="envelope">
+        <div class="envelope-flap"></div>
+        <div class="envelope-body">
+          <div class="envelope-heart">💌</div>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="confetti-canvas"></canvas>
+
+    <div class="floating-hearts" id="floating-hearts"></div>
+
+    <div class="container" id="question-container">
+      <div class="heart-icon">❤️</div>
+      <h1><span id="greeting-text"></span> <span id="name-display"></span>!</h1>
+      <p class="question" id="question-text"></p>
+      <div class="buttons">
+        <button class="btn btn-yes" id="yes-btn"></button>
+        <button class="btn btn-no" id="no-btn"></button>
+      </div>
+    </div>
+
+    <div class="celebration" id="celebration">
+      <h1 id="celebration-title"></h1>
+      <img
+        src=""
+        alt="Celebration"
+        class="celebration-gif"
+        id="celebration-gif"
+      />
+      <p class="celebration-message" id="celebration-message"></p>
+    </div>
+
+    <button class="back-btn" id="back-btn">Back</button>
+
+    <script src="main.js"></script>
+  </body>
+</html>
