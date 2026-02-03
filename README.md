@@ -1,9 +1,9 @@
 # Valentine's Day Proposal
 
-A Valentine's Day proposal thats free to host!
+A Valentine's Day proposal thats free to host and cute to send to your special someone!
 
 ## Example 
-
+![example](https://github.com/user-attachments/assets/f812ac4a-2ca8-41ea-a537-c35eef113040)
 
 ## How to Make It Your Own
 
@@ -39,3 +39,4 @@ const CONFIG = {
 ## Local Preview
 1. Download the repo
 2. Open `index.html` in your browser
+
