@@ -8,8 +8,7 @@ A Valentine's Day proposal thats free to host and cute to send to your special s
 ## How to Make It Your Own
 
 1. Download or fork this repository
-2. Open `index.html` and find the `CONFIG` object at the top
-3. Customize the values in `docs/main.js`
+2. Customize the values in `docs/main.js`
 
 ```javascript
 const CONFIG = {
@@ -26,17 +25,17 @@ const CONFIG = {
 };
 ```
 
-4. Find a GIF on [Giphy](https://giphy.com) and copy the GIF link
+3. Find a GIF on [Giphy](https://giphy.com) and copy the GIF link
+4. I supplied some good sounds but you can import your own by downloading a mp3 and placing the, in `/sounds`
 5. You could host it anywhere but hosting on Github Pages is the simplest
 
 ### Hosting on GitHub Pages
 
 1. Fork this repository
 2. Edit `main.js` in your fork and update the `CONFIG` values
-3. Go to Settings → Pages → select `main` branch → Save
+3. Go to Settings → Pages → select `main` branch → select `/docs` folder -> Save
 4. Share the link!
 
 ## Local Preview
 1. Download the repo
 2. Open `index.html` in your browser
-
